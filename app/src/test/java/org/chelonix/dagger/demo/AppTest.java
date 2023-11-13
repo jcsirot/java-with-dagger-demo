@@ -11,6 +11,6 @@ class AppTest {
     @Test void website_is_fetched() throws Exception {
         //
         String actual = App.fetchWebsite();
-        assertThat(actual).contains("Dagger.io - CI/CD as Code that Runs Anywhere");
+        assertThat(actual).contains("Dagger.io - Application Delivery as Code that Runs Anywhere");
     }
 }
